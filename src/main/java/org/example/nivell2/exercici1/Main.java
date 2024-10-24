@@ -7,10 +7,12 @@ public class Main {
 
         Restaurant restaurant1 = new Restaurant("Restaurnate 1", 8);
         Restaurant restaurant2 = new Restaurant("Restaurnate 1", 7);
+        Restaurant restaurant3 = new Restaurant("Restaurnate 1", 7);
 
         HashSet<Restaurant> restaurants = new HashSet<>();
         restaurants.add(restaurant1);
         restaurants.add(restaurant2);
+        restaurants.add(restaurant3);
 
         System.out.println(restaurants);
     }

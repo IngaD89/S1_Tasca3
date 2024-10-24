@@ -16,11 +16,7 @@ public class Main {
         System.out.println("Lista inicial de numeros\n");
         System.out.println(numbers);
 
-        ListIterator<Integer> it = numbers.listIterator();
-
-        while (it.hasNext()) {
-            it.next();
-        }
+        ListIterator<Integer> it = numbers.listIterator(numbers.size());
 
         while (it.hasPrevious()) {
             inverseNumbers.add(it.previous());

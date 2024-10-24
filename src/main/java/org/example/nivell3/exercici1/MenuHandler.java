@@ -50,7 +50,7 @@ public class MenuHandler {
                     personFileHandler.showPersonsOrdered(new CompareByDNI().reversed());
                     break;
                 default:
-                    System.out.println("Opció no vàlida, prova de nou.");
+                    System.out.println("Escoge una opción válida");
             }
 
         } while (option != 0);
